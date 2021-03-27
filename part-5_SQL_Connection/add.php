@@ -6,7 +6,7 @@
 
 	if(isset($_POST['submit'])){
 		
-		// check email
+		// check email .
 		if(empty($_POST['email'])){
 			$errors['email'] = 'An email is required';
 			$error_raised=true;
